@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml/
+/target/
+/allure-results/
+/test-output/
+/.allure/
+/debug.log/
+/ExtentReports/
+/ExtentReports.html
+.settings
+.classpath
+.project
+/.idea/
+/.github/workflows/
+/.idea/
+/video/
+/execution-summary/
+/extent-reports/
+/generate_allure_report.bat/

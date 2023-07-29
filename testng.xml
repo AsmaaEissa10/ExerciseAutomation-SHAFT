@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="AutomationExercise">
+        <classes>
+            <class name="tests.SignUpAndLoginTest">
+                <methods>
+                    <include name="Verify_that_home_page_is_visible_successfully"/>
+                    <include name="Verify_the_user_can_signUp_via_name_and_email"/>
+                    <include name="Verify_the_account_created"/>
+                </methods>
+            </class>
+            <class name="tests.ContactUsTest">
+                <methods>
+                    <include name="Verify_the_user_can_ContactUs"/>
+                </methods>
+            </class>
+            <class name="tests.ProductTest">
+                <methods>
+                    <include name="Verify_the_user_Can_Login_via_email_and_password"/>
+                    <include name="navigateToProducts"/>
+                    <include name="Verify_the_user_Can_Search"/>
+                    <include name="Verify_the_user_can_make_hover_and_choose_product_who_want"/>
+                    <include name="Verify_the_user_can_Add_Product_to_Cart"/>
+                    <include name="navigateToShoppingCartPage"/>
+                    <include name="Verify_the_user_can_Check_out_Product"/>
+                    <include name="Verify_the_order_has_been_confirmed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
